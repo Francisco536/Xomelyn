@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>XOMELYN - Historias que perduran</title>
+
+        <!-- BOOTSTRAP -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+
+        <!-- ICONOS -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <!-- GOOGLE FONTS -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!-- NAVBAR -->
+        <nav
+            class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+
+            <div class="container">
+
+                <!-- LOGO -->
+                <a class="navbar-brand"
+                    href="../index.html">
+
+                    <img src="images/xomelyn.jpeg"
+                        alt="XOMELYN"
+                        width="75">
+
+                </a>
+
+                <!-- BOTON RESPONSIVE -->
+                <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuNav">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <!-- MENU -->
+                <div class="collapse navbar-collapse justify-content-end"
+                    id="menuNav">
+
+                    <ul class="navbar-nav align-items-lg-center">
+
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                                href="index.html">
+
+                                <i class="bi bi-house-door-fill me-1"></i>
+                                Inicio
+
+                            </a>
+
+                        </li>
+
+                        <!-- CONOCENOS -->
+                        <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown">
+
+                                <i class="bi bi-book-fill me-1"></i>
+                                Conócenos
+
+                            </a>
+
+                            <ul class="dropdown-menu">
+
+                                <li>
+                                    <a class="dropdown-item"
+                                        href="#historia">
+
+                                        📖 Historia y Origen
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item"
+                                        href="#nosotros">
+
+                                        🌿 Sobre Nosotros
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item"
+                                        href="#elabora">
+
+                                        🏺 Quién las elabora
+
+                                    </a>
+                                </li>
+
+                                <li >
+
+                                    <a class="dropdown-item"
+                                        href="#contacto">
+
+                                        <i class="bi bi-envelope-fill me-1"></i>
+                                        Contacto
+
+                                    </a>
+
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                        <!-- MUÑECAS -->
+                        <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown">
+
+                                <i class="bi bi-stars me-1"></i>
+                                Muñecas
+
+                            </a>
+
+                            <ul class="dropdown-menu">
+
+                                <li>
+                                    <a class="dropdown-item"
+                                        href="munecas/santo-tomas.html">
+
+                                        Santo Tomás Ocotepec
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item"
+                                        href="munecas/san-miguel.html">
+
+                                        San Miguel El Grande
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item"
+                                        href="munecas/magdalena.html">
+
+                                        Magdalena Peñasco
+
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                        <!-- GALERIA -->
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                                href="#galeria">
+
+                                <i class="bi bi-images me-1"></i>
+
+                                Galería
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+        <!-- CONTENIDO -->
+        <div class="container py-5 main-container">
+
+            <!-- HERO -->
+            <div class="row align-items-center hero-section">
+
+                <div class="col-lg-6">
+
+                    <h1 class="hero-title">
+                        XOMELYN
+                    </h1>
+
+                    <p class="hero-text">
+                        Historias que perduran a través del barro,
+                        la tradición y la identidad cultural.
+                    </p>
+
+                    <p class="hero-description">
+                        Cada muñeca representa la esencia de los pueblos
+                        mixtecos de Oaxaca, elaboradas artesanalmente
+                        y conectadas con narrativa digital mediante
+                        tecnología QR.
+                    </p>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="images/inicio.jpeg"
+                        class="hero-img"
+                        alt="Muñeca XOMELYN">
+                </div>
+
+            </div>
+
+            <!-- HISTORIA -->
+            <section id="historia">
+
+                <h2 class="section-title">
+                    Historia y Origen
+                </h2>
+
+                <div class="card-dark mb-4">
+
+                    <h5>Cómo nace XOMELYN</h5>
+
+                    <p>
+                        XOMELYN es un proyecto artesanal y cultural enfocado en
+                        la elaboración de muñecas y muñecos de barro
+                        representando los trajes típicos y la identidad cultural
+                        de municipios de Oaxaca, especialmente de la región
+                        Mixteca. El proceso inicia con la investigación cultural
+                        de cada comunidad para conocer sus costumbres,
+                        tradiciones, vestimenta y elementos representativos.
+                        Posteriormente, los artesanos moldean el barro de manera
+                        manual, dando forma a cada pieza con técnicas
+                        tradicionales transmitidas de generación en generación.
+                        Después del secado y horneado, las figuras son pintadas
+                        artesanalmente con detalles característicos de cada
+                        municipio.
+                        Además de la elaboración artesanal, XOMELYN integra
+                        tecnología mediante códigos QR colocados en las piezas.
+                        Al escanearlos, los clientes pueden acceder a
+                        información digital sobre el origen de la muñeca, el
+                        significado del traje típico, las tradiciones del
+                        municipio y el proceso de elaboración. Esto permite
+                        combinar tradición e innovación, creando una experiencia
+                        cultural interactiva y educativa.
+
+                    </p>
+
+                </div>
+
+                <div class="card-dark mb-4">
+
+                    <h5>Origen del nombre XOMELYN</h5>
+
+                    <p class="mb-4">
+                        El nombre <strong>XOMELYN</strong> surge de la
+                        combinación creativa de los nombres de los integrantes
+                        del equipo que desarrolló el proyecto, representando
+                        la unión, creatividad y trabajo colaborativo dentro
+                        de esta propuesta artesanal y cultural.
+                    </p>
+
+                    <div class="name-box">
+
+                        <h6>¿Cómo se formó el nombre?</h6>
+
+                        <ul class="name-list">
+                            <li>
+                                <strong>XO</strong> → de Xochitlquetzal
+                            </li>
+
+                            <li>
+                                <strong>ME</strong> → de Margarita Emily
+                            </li>
+
+                            <li>
+                                <strong>L</strong> → de Luis y Lore
+                            </li>
+
+                            <li>
+                                <strong>YN</strong> → de Evelyn
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="team-box">
+
+                        <h6>Integrantes del proyecto</h6>
+
+                        <ul class="team-list">
+
+                            <li>Juárez Chávez Margarita Emily</li>
+
+                            <li>Luis Ángel Mendoza Coronel</li>
+
+                            <li>Miguel Cruz Evelyn</li>
+
+                            <li>Morales Bautista Xochitlquetzal</li>
+
+                            <li>Velasco Vásquez Lorena</li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="mt-4">
+                        <p>
+                            De esta manera, el nombre XOMELYN no solo identifica
+                            a las muñecas artesanales, sino que también
+                            simboliza
+                            la unión del equipo y el esfuerzo colaborativo
+                            detrás
+                            del proyecto.
+                        </p>
+
+                        <p>
+                            El nombre fue creado con la intención de brindar una
+                            identidad original, moderna y fácil de recordar,
+                            reflejando innovación sin perder la esencia
+                            artesanal
+                            y cultural de Oaxaca.
+                        </p>
+
+                        <p>
+                            XOMELYN representa la unión entre tradición,
+                            identidad cultural y tecnología, elementos
+                            fundamentales dentro del proyecto de muñecas
+                            y muñecos de barro con narrativa digital y
+                            códigos QR.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="card-dark">
+
+                    <h5>Impacto e importancia de XOMELYN</h5>
+
+                    <p class="mb-4">
+                        XOMELYN tiene un impacto cultural, social,
+                        económico y turístico importante para las
+                        comunidades artesanales de Oaxaca,
+                        especialmente en la región Mixteca y
+                        municipios del distrito de Tlaxiaco.
+                    </p>
+
+                    <div class="impact-item">
+                        <h6>Impacto cultural</h6>
+
+                        <p>
+                            El proyecto ayuda a preservar las
+                            tradiciones, costumbres e identidad de
+                            los municipios oaxaqueños mediante la
+                            representación de trajes típicos en
+                            muñecas de barro. Cada pieza funciona
+                            como un medio de transmisión cultural
+                            para nuevas generaciones y visitantes
+                            nacionales e internacionales.
+                        </p>
+                    </div>
+
+                    <div class="impact-item">
+                        <h6>Impacto social</h6>
+
+                        <p>
+                            XOMELYN fortalece el trabajo de los
+                            artesanos locales, impulsando
+                            oportunidades económicas y fomentando
+                            el reconocimiento del talento artesanal
+                            de la región Mixteca. También promueve
+                            el interés de jóvenes por conservar las
+                            tradiciones culturales y evitar la pérdida
+                            del patrimonio artesanal.
+                        </p>
+                    </div>
+
+                    <div class="impact-item">
+                        <h6>Impacto económico</h6>
+
+                        <p>
+                            El proyecto genera oportunidades de
+                            comercialización para talleres artesanales
+                            mediante ventas directas, ferias culturales,
+                            redes sociales y plataformas digitales.
+                            Asimismo, incrementa el valor percibido
+                            de las artesanías al integrar tecnología QR
+                            y narrativa digital.
+                        </p>
+                    </div>
+
+                    <div class="impact-item">
+                        <h6>Impacto turístico</h6>
+
+                        <p>
+                            Las piezas de XOMELYN ofrecen una
+                            experiencia cultural innovadora para
+                            turistas interesados en conocer la historia,
+                            tradiciones y riqueza cultural de Oaxaca.
+                            Esto contribuye al fortalecimiento del turismo
+                            cultural y artesanal de Tlaxiaco y otros
+                            municipios de la región.
+                        </p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- SOBRE NOSOTROS -->
+            <section id="nosotros">
+
+                <h2 class="section-title">
+                    Sobre Nosotros
+                </h2>
+
+                <div class="card-dark mb-4">
+
+                    <h5>Nuestra Misión</h5>
+
+                    <p>
+                        Preservar y difundir la identidad cultural de los
+                        municipios del distrito de Tlaxiaco mediante la
+                        elaboración artesanal de muñecas y muñecos de barro,
+                        integrando innovación tecnológica a través de narrativa
+                        digital y códigos QR, para ofrecer productos culturales
+                        auténticos, educativos y de valor turístico.
+                    </p>
+
+                </div>
+
+                <div class="card-dark mb-4">
+
+                    <h5>Nuestra Visión</h5>
+
+                    <p>
+                        Ser una marca artesanal reconocida a nivel regional,
+                        nacional e internacional por promover la cultura
+                        oaxaqueña mediante artesanías innovadoras que combinen
+                        tradición, arte y tecnología, fortaleciendo el
+                        desarrollo económico y cultural de las comunidades
+                        artesanales.
+                    </p>
+
+                </div>
+
+                <div class="card-dark">
+
+                    <h5>Valores que nos representan</h5>
+
+                    <ul class="values-list">
+
+                        <li>
+                            <strong>Identidad cultural:</strong>
+                            Respetamos y promovemos las tradiciones y costumbres
+                            de Oaxaca.
+                        </li>
+
+                        <li>
+                            <strong>Creatividad:</strong>
+                            Innovamos constantemente en el diseño y presentación
+                            de nuestras piezas.
+                        </li>
+
+                        <li>
+                            <strong>Compromiso:</strong>
+                            Trabajamos con responsabilidad para preservar el
+                            patrimonio artesanal.
+                        </li>
+
+                        <li>
+                            <strong>Autenticidad:</strong>
+                            Cada pieza refleja la esencia y originalidad de la
+                            cultura mixteca.
+                        </li>
+
+                        <li>
+                            <strong>Trabajo en equipo:</strong>
+                            Valoramos la colaboración entre artesanos,
+                            estudiantes y comunidades.
+                        </li>
+
+                        <li>
+                            <strong>Respeto:</strong>
+                            Reconocemos el valor del trabajo artesanal y de las
+                            comunidades culturales.
+                        </li>
+
+                        <li>
+                            <strong>Innovación:</strong>
+                            Integramos herramientas tecnológicas para fortalecer
+                            la difusión cultural.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </section>
+
+            <!-- QUIÉN LOS ELABORA -->
+            <section id="elabora">
+
+                <h2 class="section-title">
+                    ¿Quién los elabora?
+                </h2>
+
+                <div class="card-dark">
+
+                    <p class="mb-4">
+                        Las muñecas y muñecos artesanales de barro
+                        son elaborados de manera artesanal por
+                        artistas oaxaqueños comprometidos con la
+                        preservación de las tradiciones culturales
+                        de la región Mixteca.
+                    </p>
+
+                    <div class="artisan-box">
+
+                        <h6>Elaboración y moldeado artesanal</h6>
+
+                        <div class="artisan-item">
+
+                            <div class="artisan-icon">
+                                🏺
+                            </div>
+
+                            <div>
+                                <strong>Tomás Feria Ortiz</strong>
+
+                                <p>
+                                    Encargado de la elaboración y moldeado
+                                    artesanal de las muñecas de barro.
+                                    Originario de Magdalena Peñasco, Oaxaca.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="artisan-box mt-4">
+
+                        <h6>Pintado artesanal</h6>
+
+                        <div class="artisan-item">
+
+                            <div class="artisan-icon">
+                                🎨
+                            </div>
+
+                            <div>
+                                <strong>Jaime González</strong>
+
+                                <p>
+                                    Pintor artesanal encargado del proceso
+                                    de decoración y detallado de las piezas.
+                                    Originario de Heroica Ciudad de Tlaxiaco.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="artisan-footer">
+
+                        <p>
+                            Las piezas representan la identidad cultural
+                            y los trajes típicos de comunidades oaxaqueñas,
+                            integrando tradición artesanal e innovación
+                            tecnológica mediante narrativa digital y
+                            códigos QR.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- GALERIA -->
+            <section id="galeria">
+
+                <h2 class="section-title">
+                    Galería
+                </h2>
+
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <img src="images/san_miguel.jpeg"
+                            class="img-fluid">
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/ocotepec.jpeg"
+                            class="img-fluid">
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/magdalena.jpeg"
+                            class="img-fluid">
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer id="contacto">
+
+            <h4>XOMELYN</h4>
+
+            <p>
+                Historias que perduran a través del arte,
+                la tradición y la identidad cultural de Oaxaca.
+            </p>
+
+            <small>
+                © 2026 Todos los derechos reservados
+            </small>
+
+        </footer>
+
+        <!-- Bootstrap -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+
+</html>
